@@ -1,0 +1,32 @@
+/* Common styles */
+.app {
+  text-align: center;
+  padding: 20px;
+  transition: all 0.5s ease;
+}
+
+/* Light Theme */
+.app.light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Dark Theme */
+.app.dark {
+  background-color: #333;
+  color: #f9f9f9;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ddd;
+  color: #333;
+}
